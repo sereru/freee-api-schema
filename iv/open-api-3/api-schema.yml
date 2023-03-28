@@ -1324,43 +1324,6 @@ components:
         - quotations
       type: object
     QuotationRequest:
-      example:
-        delivery_deadline: 2023年12月31日
-        partner_address_prefecture_code: 4
-        partner_address_zipcode: "1410032"
-        company_id: 1
-        subject: Webサイト製作費
-        partner_address_street_name2: ビル 1F
-        memo: 社内メモ
-        partner_address_street_name1: 東京都ＸＸ区ＹＹ１−１−１
-        expiration_date: 2023-04-01
-        delivery_location: 納品場所
-        tax_fraction: omit
-        withholding_tax_entry_method: out
-        quotation_date: 2023-04-01
-        branch_no: 1
-        tax_entry_method: out
-        partner_id: 1
-        partner_title: 御中
-        partner_contact_name: 法人営業担当
-        template_id: 1
-        partner_contact_department: 営業部
-        lines:
-          - withholding: true
-            unit: 個
-            reduced_tax_rate: false
-            quantity: 1
-            description: 切手代
-            unit_price: "1234567890123.123"
-            tax_rate: 8
-          - withholding: true
-            unit: 個
-            reduced_tax_rate: false
-            quantity: 1
-            description: 切手代
-            unit_price: "1234567890123.123"
-            tax_rate: 8
-        quotation_note: 備考
       properties:
         company_id:
           description: 事業所ID
