@@ -979,14 +979,14 @@ components:
     InvoiceRequest:
       example:
         partner_address_prefecture_code: 4
-        partner_address_zipcode: "1410032"
+        partner_address_zipcode: "9999999"
         company_id: 1
         subject: Webサイト製作費
         partner_address_street_name2: ビル 1F
         memo: 社内メモ
         partner_address_street_name1: 東京都ＸＸ区ＹＹ１−１−１
         billing_partner_id: 1
-        billing_date: 2023-04-01
+        billing_date: "2023-04-01"
         tax_fraction: omit
         invoice_note: 備考
         withholding_tax_entry_method: out
@@ -1002,7 +1002,7 @@ components:
             unit: 個
             reduced_tax_rate: false
             quantity: 1
-            sales_date: 2023-04-01
+            sales_date: "2023-04-01"
             description: 切手代
             unit_price: "1234567890123.123"
             tax_rate: 8
@@ -1010,7 +1010,7 @@ components:
             unit: 個
             reduced_tax_rate: false
             quantity: 1
-            sales_date: 2023-04-01
+            sales_date: "2023-04-01"
             description: 切手代
             unit_price: "1234567890123.123"
             tax_rate: 8
